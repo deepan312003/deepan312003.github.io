@@ -1,4 +1,49 @@
 # deepan312003.github.io
+###To generate an occupancy chart for all rooms for CSE, we will need to have the following information:
+
+List of rooms and their capacities
+Time table/schedule of events and classes in each room
+List of room reservations made by users
+
+Using this information, we can create an occupancy chart that shows the availability of each room at different times. This can be done by creating a table with rows representing each room and columns representing each time slot, and filling in the table with information about which events/classes are scheduled in each room at each time slot. Any room that is not scheduled for an event/class at a particular time slot is considered to be available.
+
+To search for room availability on a particular day/time and reserve the same, users can interact with the occupancy chart through a web application or mobile app. They can select a particular day/time and view which rooms are available for reservation. They can then select the room they want to reserve and make a reservation by providing their personal details and the purpose of the reservation.
+
+User stories for this project can be divided into epics and sub-stories. The epics for this project could be:
+
+Room Management: This epic will include all the stories related to managing the rooms, such as adding new rooms, updating room details, and deleting rooms.
+Event Management: This epic will include all the stories related to managing the events and classes scheduled in each room, such as creating new events, updating event details, and deleting events.
+Reservation Management: This epic will include all the stories related to managing the room reservations made by users, such as creating new reservations, updating reservation details, and cancelling reservations.
+Some example user stories for each epic could be:
+
+####Room Management:
+
+As a system administrator, I want to be able to add new rooms to the system, so that they can be used for scheduling events and classes.
+As a system administrator, I want to be able to update the details of existing rooms, such as their capacity and location, so that they are up-to-date.
+As a system administrator, I want to be able to delete rooms that are no longer needed, so that they do not clutter the system.
+####Event Management:
+
+As a teacher, I want to be able to schedule a new class in a particular room at a particular time, so that my students know where and when to attend.
+As an event organizer, I want to be able to create a new event in the system and assign it to a particular room at a particular time, so that attendees know where and when to go.
+As a system administrator, I want to be able to delete events that have been cancelled or are no longer needed, so that they do not clutter the system.
+Reservation Management:
+
+As a user, I want to be able to search for available rooms on a particular day and time, so that I can reserve a room for my event.
+As a user, I want to be able to reserve a room for a particular day and time, and provide details about the purpose of the reservation, so that I can use the room for my event.
+As a user, I want to be able to cancel my reservation if I no longer need the room, so that it becomes available for others to use.
+For a sprint 0 chart, we could have the following tasks and user types:
+
+####Tasks:
+
+Set up the database and data models for rooms, events, and reservations
+Create a basic occupancy chart UI for viewing room availability
+Implement room management functionality, including adding, updating, and deleting rooms
+Implement event management functionality, including creating, updating, and deleting events
+Implement reservation management functionality, including searching for available rooms and making reservations
+6
+
+
+
 | Epic | User Story | Sub-Story | Task | Plan to Work | User Types |
 | --- | --- | --- | --- | --- | --- |
 | Time Table Management | Manage Time Table | Define Time Table Format | Define fields and data types for time table\nIdentify stakeholders and gather requirements for time table format | Team Lead, Faculty, Admin |
