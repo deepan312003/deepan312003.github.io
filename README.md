@@ -1,5 +1,5 @@
-# deepan312003.github.io
-###To generate an occupancy chart for all rooms for CSE, we will need to have the following information:
+# occupancy chart based on availability for CSE
+### To generate an occupancy chart for all rooms for CSE, we will need to have the following information:
 
 List of rooms and their capacities
 Time table/schedule of events and classes in each room
@@ -16,12 +16,12 @@ Event Management: This epic will include all the stories related to managing the
 Reservation Management: This epic will include all the stories related to managing the room reservations made by users, such as creating new reservations, updating reservation details, and cancelling reservations.
 Some example user stories for each epic could be:
 
-####Room Management:
+#### Room Management:
 
 As a system administrator, I want to be able to add new rooms to the system, so that they can be used for scheduling events and classes.
 As a system administrator, I want to be able to update the details of existing rooms, such as their capacity and location, so that they are up-to-date.
 As a system administrator, I want to be able to delete rooms that are no longer needed, so that they do not clutter the system.
-####Event Management:
+#### Event Management:
 
 As a teacher, I want to be able to schedule a new class in a particular room at a particular time, so that my students know where and when to attend.
 As an event organizer, I want to be able to create a new event in the system and assign it to a particular room at a particular time, so that attendees know where and when to go.
@@ -33,14 +33,15 @@ As a user, I want to be able to reserve a room for a particular day and time, an
 As a user, I want to be able to cancel my reservation if I no longer need the room, so that it becomes available for others to use.
 For a sprint 0 chart, we could have the following tasks and user types:
 
-####Tasks:
+#### Tasks:
 
 Set up the database and data models for rooms, events, and reservations
 Create a basic occupancy chart UI for viewing room availability
 Implement room management functionality, including adding, updating, and deleting rooms
 Implement event management functionality, including creating, updating, and deleting events
 Implement reservation management functionality, including searching for available rooms and making reservations
-6
+
+
 
 
 
