@@ -16,33 +16,54 @@ Event Management: This epic will include all the stories related to managing the
 Reservation Management: This epic will include all the stories related to managing the room reservations made by users, such as creating new reservations, updating reservation details, and cancelling reservations.
 Some example user stories for each epic could be:
 
-#### Room Management:
-
-As a system administrator, I want to be able to add new rooms to the system, so that they can be used for scheduling events and classes.
-As a system administrator, I want to be able to update the details of existing rooms, such as their capacity and location, so that they are up-to-date.
-As a system administrator, I want to be able to delete rooms that are no longer needed, so that they do not clutter the system.
-#### Event Management:
-
-As a teacher, I want to be able to schedule a new class in a particular room at a particular time, so that my students know where and when to attend.
-As an event organizer, I want to be able to create a new event in the system and assign it to a particular room at a particular time, so that attendees know where and when to go.
-As a system administrator, I want to be able to delete events that have been cancelled or are no longer needed, so that they do not clutter the system.
-Reservation Management:
-
-As a user, I want to be able to search for available rooms on a particular day and time, so that I can reserve a room for my event.
-As a user, I want to be able to reserve a room for a particular day and time, and provide details about the purpose of the reservation, so that I can use the room for my event.
-As a user, I want to be able to cancel my reservation if I no longer need the room, so that it becomes available for others to use.
-For a sprint 0 chart, we could have the following tasks and user types:
-
-#### Tasks:
-
-Set up the database and data models for rooms, events, and reservations
-Create a basic occupancy chart UI for viewing room availability
-Implement room management functionality, including adding, updating, and deleting rooms
-Implement event management functionality, including creating, updating, and deleting events
-Implement reservation management functionality, including searching for available rooms and making reservations
-
-
-
+### Epic 1: Room Management
+#### User Stories
+As a system administrator, I want to be able to add new rooms to the system.
+As a system administrator, I want to be able to update the details of existing rooms.
+As a system administrator, I want to be able to delete rooms that are no longer needed.
+As a user, I want to be able to view a list of all rooms in the system.
+As a user, I want to be able to view the details of a particular room, such as its capacity and location.
+#### Sub-stories/Tasks
+Create a database table for storing room information.
+Implement a form for adding new rooms to the system.
+Implement a form for updating existing room details.
+Implement a confirmation dialog for deleting a room.
+Create a UI for displaying a list of all rooms in the system.
+Create a UI for displaying the details of a particular room.
+### Epic 2: Event Management
+#### User Stories
+As a teacher, I want to be able to schedule a new class in a particular room at a particular time.
+As an event organizer, I want to be able to create a new event in the system.
+As a system administrator, I want to be able to delete events that have been cancelled or are no longer needed.
+As a user, I want to be able to view a list of all scheduled events in the system.
+As a user, I want to be able to view the details of a particular event, such as its location and time.
+#### Sub-stories/Tasks
+Create a database table for storing event information.
+Implement a form for scheduling a new class in a particular room at a particular time.
+Implement a form for creating a new event in the system.
+Implement a confirmation dialog for deleting an event.
+Create a UI for displaying a list of all scheduled events in the system.
+Create a UI for displaying the details of a particular event.
+### Epic 3: Reservation Management
+#### User Stories
+As a user, I want to be able to search for available rooms on a particular day and time.
+As a user, I want to be able to reserve a room for a particular day and time.
+As a user, I want to be able to cancel my reservation if I no longer need the room.
+As a user, I want to be able to view a list of all my reservations.
+As a user, I want to be able to view the details of a particular reservation, such as the room and time.
+#### Sub-stories/Tasks
+Create a database table for storing reservation information.
+Implement a search function for finding available rooms on a particular day and time.
+Implement a form for reserving a room for a particular day and time.
+Implement a confirmation dialog for cancelling a reservation.
+Create a UI for displaying a list of all my reservations.
+Create a UI for displaying the details of a particular reservation.
+### Epic 4: User Management
+##### User Stories
+As a system administrator, I want to be able to create new user accounts.
+As a system administrator, I want to be able to update user account details.
+As a system administrator, I want to be able to delete user accounts.
+As a user, I want to be able to log in to the system
 
 
 | Epic | User Story | Sub-Story | Task | Plan to Work | User Types |
