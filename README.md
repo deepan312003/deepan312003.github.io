@@ -1,4 +1,26 @@
 # occupancy chart based on availability for CSE
+## How to write user stories
+Consider the following when writing user stories:
+
+##### Definition of “done” 
+The story is generally “done” when the user can complete the outlined task, but make sure to define what that is.
+ 
+##### Outline subtasks or tasks 
+Decide which specific steps need to be completed and who is responsible for each of them.
+ 
+##### User personas 
+For whom? If there are multiple end users, consider making multiple stories.
+ 
+##### Ordered Steps 
+Write a story for each step in a larger process.
+ 
+##### Listen to feedback 
+Talk to your users and capture the problem or need in their words. No need to guess at stories when you can source them from your customers.
+ 
+##### Time 
+Time is a touchy subject. Many development teams avoid discussions of time altogether, relying instead on their estimation frameworks. Since stories should be completable in one sprint, stories that might take weeks or months to complete should be broken up into smaller stories or should be considered their own epic.
+ 
+Once the user stories are clearly defined, make sure they are visible for the entire team.
 ### To generate an occupancy chart for all rooms for CSE, we will need to have the following information:
 
 List of rooms and their capacities
